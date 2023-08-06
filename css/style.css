@@ -67,7 +67,7 @@ header .call-us .text-large {
 }
 
 .landing .container {
-  min-height: 80vh;
+  padding: 0 0 8rem;
 }
 
 .landing .landing-left, .landing .landing-right {
@@ -169,6 +169,10 @@ header .call-us .text-large {
 }
 
 /* services */
+.services .container {
+  padding: 8rem 0 0;
+}
+
 .services .services-items {
   gap: 1rem;
   width: 100%;
@@ -205,6 +209,10 @@ header .call-us .text-large {
 }
 
 /* about us */
+.about-us .container {
+  padding: 8rem 0 0;
+}
+
 .about-us-container .about-us-items {
   padding: 4rem 0 0;
 }
@@ -291,6 +299,10 @@ header .call-us .text-large {
   position: relative;
 }
 
+.numbers .container {
+ padding: 12rem 0;
+}
+
 .numbers .world-map {
   position: absolute;
   top: 50%;
@@ -298,10 +310,6 @@ header .call-us .text-large {
   transform: translateX(-50%) translateY(-50%);
   opacity: 0.1;
   z-index: -1;
-}
-
-.numbers-container {
-  min-height: 90vh;
 }
 
 .numbers-container .numbers-items {
@@ -331,6 +339,10 @@ header .call-us .text-large {
 /* why us */
 .why-us {
   position: relative;
+}
+
+.why-us .container {
+  padding: 8rem 0 0;
 }
 
 .why-us .backdrop {
@@ -386,6 +398,7 @@ header .call-us .text-large {
 /* testimonials */
 .testimonials .container {
   min-height: unset;
+  padding: 8rem 0 0;
 }
 
 .testimonials-container .left-testimonials, .testimonials-container .right-testimonials {
@@ -452,6 +465,10 @@ header .call-us .text-large {
 .faq {
   background-color: var(--backdrop);
   padding-bottom: 15rem;
+}
+
+.faq .container {
+  padding: 8rem 0 0;
 }
 
 .faq-items-container {
