@@ -1,0 +1,149 @@
+/* graphic elements */
+#graphic-element-1 {
+  bottom: 10%;
+  left: -10px;
+}
+
+#graphic-element-2 {
+  top: -10%;
+  left: 15%;
+  z-index: -2;
+  opacity: 0.2;
+}
+
+#graphic-element-3 {
+  bottom: -10px;
+  right: -10px;
+}
+
+#graphic-element-4 {
+  bottom: -20px;
+  left: 300px;
+  transform: rotateZ(5deg);
+}
+
+#graphic-element-5 {
+  bottom: 120px;
+  left: -100px;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#graphic-element-6 {
+  top: 80px;
+  right: 150px;
+}
+
+#graphic-element-7 {
+  top: 70px;
+  left: 70px;
+  transform: rotateZ(-25deg);
+}
+
+#graphic-element-8 {
+  top: 45%;
+  left: -150px;
+  transform: translateX(-50%);
+}
+
+/* elements */
+#element-1 {
+  top: 40px;
+  right: -60px;
+  transform: rotateZ(15deg);
+}
+
+#element-1 svg path:first-child {
+  fill: rgba(107, 81, 81, 0.5);
+}
+
+#element-2 {
+  top: 40%;
+  left: 120px;
+}
+
+#element-2 svg path:first-child {
+  fill: rgba(195, 0, 255, 0.5);
+}
+
+#element-3 {
+  top: 20%;
+  left: -70px;
+}
+
+#element-3 svg path:first-child {
+  fill: var(--light-yellow);
+}
+
+#element-4 {
+  top: 0;
+  right: 150px;
+  transform: rotateZ(-20deg) scale(0.8);
+}
+
+#element-4 svg path:first-child {
+  fill: var(--light-blue);
+}
+
+#element-5 {
+  top: 8%;
+  right: 25%;
+  transform: rotateZ(20deg);
+}
+
+#element-5 svg path:first-child {
+  fill: var(--light-yellow);
+}
+
+#element-6 {
+  bottom: 100px;
+  left: 250px;
+  transform: rotateZ(-20deg) scale(0.8);
+  z-index: -1;
+}
+
+#element-6 svg path:first-child {
+  fill: var(--light-blue);
+}
+
+#element-7 {
+  bottom: -30px;
+  right: 200px;
+  transform: rotateZ(10deg);
+}
+
+#element-7 svg path:first-child {
+  fill: var(--light-yellow);
+}
+
+#element-8 {
+  bottom: 250px;
+  right: 120px;
+  transform: rotateZ(-20deg) scale(0.7);
+}
+
+#element-8 svg path:first-child {
+  fill: var(--light-blue);
+}
+
+#element-9 {
+  top: -50px;
+  left: -50px;
+  transform: rotateZ(10deg);
+}
+
+#element-9 svg path:first-child {
+  fill: var(--light-yellow);
+}
+
+#element-10 {
+  bottom: -50px;
+  right: -50px;
+  transform: rotateZ(-20deg) scale(0.7);
+}
+
+#element-10 svg path:first-child {
+  fill: var(--light-red);
+}
+
+
