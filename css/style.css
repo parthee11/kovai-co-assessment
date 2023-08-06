@@ -8,7 +8,7 @@
   --primary-light: rgba(255, 68, 0, 0.4);
   --secondary-color: rgb(0, 0, 255);
   --light-color: rgb(255, 255, 255);
-  --light-grey: rgb(133, 133, 133);
+  --light-grey: rgb(78, 78, 78);
   --dark-color: rgb(0, 0, 0);
   --light-yellow: rgba(208, 255, 0, 0.3);
   --light-red: rgba(255, 0, 0, 0.2);
@@ -290,8 +290,8 @@ header .call-us .text-large {
 
 .about-us-items .right-items .tab-contents .tab-content .signature img {
   width: 100px;
-  object-fit: cover;
-  height: auto;
+  height: 40px;
+  object-fit: cotain;
 }
 
 /* numbers items */
@@ -310,6 +310,12 @@ header .call-us .text-large {
   transform: translateX(-50%) translateY(-50%);
   opacity: 0.1;
   z-index: -1;
+}
+
+.numbers .world-map img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
 }
 
 .numbers-container .numbers-items {
@@ -368,10 +374,7 @@ header .call-us .text-large {
   background-color: var(--light-color);
   width: 25%;
   height: 300px;
-}
-
-.why-us-container .why-us-items .why-us-item:first-child {
-  box-shadow: -15px 15px 20px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.025);
 }
 
 .why-us-container .why-us-items .why-us-item:nth-child(odd) {
@@ -603,7 +606,7 @@ footer .footer-info .address address h3, footer .footer-info .contact h3, footer
 
 footer .footer-info .payment-info .payment-logos img  {
   width: 50px;
-  height: auto;
+  height: 50px;
   object-fit: contain;
 }
 

@@ -210,14 +210,6 @@
     height: auto;
   }
 
-  .why-us-container .why-us-items .why-us-item:first-child {
-    box-shadow: unset;
-  }
-
-  .why-us-container .why-us-items .why-us-item {
-    box-shadow: -10px 5px 10px 2px rgba(0, 0, 0, 0.025) !important;
-  }
-
   .why-us-container .why-us-items .why-us-item:nth-child(odd) {
     margin-top: 0;
     margin-left: 3rem;
